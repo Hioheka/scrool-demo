@@ -1,0 +1,26 @@
+.list-container {
+  height: 300px; /* Örnek bir yükseklik */
+  overflow-y: auto;
+}
+
+.list-item {
+  padding: 10px;
+}
+
+:host {
+  display: flex;
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+  height: 98vh; /* Sayfanın tamamını kapla */
+  background: linear-gradient(to bottom, #000000, #000000); /* Siyah gradyan arka plan */
+  font-family: Arial, sans-serif; /* Varsayılan font */
+  color: #ffffff; /* Varsayılan metin rengi */
+}
+
+.dynamic-expression {
+  color: red;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 8px; /* Köşeleri yuvarlatma */
+  padding: 10px; /* Metinden daha geniş olması için iç boşluk */
+}
